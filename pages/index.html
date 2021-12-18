@@ -1,0 +1,696 @@
+[1:41 PM, 12/14/2021] +91 84211 63964:
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        #container {
+
+            display: grid;
+            grid-template-columns: repeat(18, 1fr);
+            grid-gap: 5px;
+            border: 1px solid transparent;
+            grid-template-areas:
+                "a a a a a a a a a a a a a a a a a a"
+                "b b b b b b b b b b b b b b b b b b"
+                "c c c c c c c c c c c c c c c c c c"
+                "d d d d d d d d d d d d d d d d d d"
+                "e e e e e e e e e e e e e e e e e e"
+                "f f f f f f f f f f f f f f f f f f"
+                "g g g g g g g g g g g g g g g g g g"
+                "h h h h h h h h h h h h h h h h h h"
+                "i i i i i i i i i i i i i i i i i i"
+                "j j j j j j j j j j j j j j j j j j"
+                "k k k k k k k k k k k k k k k k k k"
+                "l l l l l l l l l l l l l l l l l l"
+                "m m m m m m m m m m m m m m m m m m"
+                "n n n n n n n n n n n n n n n n n n"
+                "o o o o o o o o o o o o o o o o o o"
+                "p p p p p p p p p p p p p p p p p p"
+                "q q q q q q q q q q q q q q q q q q"
+                "r r r r r r r r r r r r r r r r r r"
+                "s s s s s s s s s s s s s s s s s s"
+                "t t t t t t t t t t t t t t t t t t"
+                ". . u u u u u u u u u u u u u u . ."
+
+            ;
+
+        }
+
+        #one {
+            grid-area: a;
+            border: 1px solid red;
+            height: 30px;
+        }
+
+        #two {
+            grid-area: b;
+            border: 1px solid blue;
+            height: 60px;
+        }
+
+        #three {
+            grid-area: c;
+            border: 1px solid red;
+            height: 40px;
+        }
+
+        #four {
+            grid-area: d;
+            border: 1px solid blue;
+            height: 700px;
+        }
+
+        #five {
+            grid-area: e;
+            border: 1px solid red;
+            height: 120px;
+
+        }
+
+        #six {
+            grid-area: f;
+            border: 1px solid blue;
+            height: 700px;
+        }
+
+        #seven {
+            grid-area: g;
+            border: 1px solid red;
+            height: 350px;
+        }
+
+        #eigth {
+            grid-area: h;
+            border: 1px solid blue;
+            height: 60px;
+        }
+
+        #nine {
+            grid-area: i;
+            border: 1px solid red;
+            height: 800px;
+        }
+
+        #ten {
+            grid-area: j;
+            border: 1px solid blue;
+            height: 120px;
+        }
+
+        #eleven {
+            grid-area: k;
+            border: 1px solid red;
+            height: 700px;
+        }
+
+        #twelve {
+            grid-area: l;
+            border: 1px solid blue;
+            height: 350px;
+        }
+
+
+
+        /* Starts from here */
+
+        #thirteen {
+            grid-area: m;
+            border: 1px solid transparent;
+            height: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .divHeading {
+            font-weight: 500;
+        }
+
+        #fourteen {
+            grid-area: n;
+            border: 1px solid transparent;
+            height: 600px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #fifthteen {
+            grid-area: o;
+            border: 1px solid transparent;
+            margin-left: 50px;
+            margin-right: 50px;
+            text-align: center;
+        }
+
+        .shopBtnBlack {
+            width: 95px;
+            height: 42px;
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+            border: 0px;
+            margin: 10px;
+        }
+
+        .exploreBtn {
+            width: 200px;
+            height: 42px;
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+            border: 0px;
+            margin: 10px;
+        }
+
+        .exploreBtn:hover {
+            background-color: #32322D;
+        }
+
+        .shopBtnBlack {
+            width: 95px;
+            height: 42px;
+            border-radius: 30px;
+            background-color: black;
+            color: white;
+            border: 0px;
+            margin-bottom: 10px;
+        }
+
+        .shopBtnBlack:hover {
+            background-color: #32322D;
+        }
+
+        #sixteen {
+            grid-area: p;
+            border: 1px solid transparent;
+            height: 60px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #seventeen {
+            grid-area: q;
+            border: 1px solid transparent;
+            height: 500px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #eigthteen {
+            grid-area: r;
+            border: 1px solid transparent;
+            margin-left: 50px;
+            margin-right: 50px;
+            text-align: center;
+        }
+
+        #nineteen {
+            grid-area: s;
+            border: 1px solid transparent;
+            height: 60px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        #Twenty {
+            grid-area: t;
+            border: 1px solid transparent;
+            height: 500px;
+            margin-left: 50px;
+            margin-right: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #Twenty>div {
+            width: 30%;
+            height: 90%;
+            border: 1px solid transparent;
+            padding: 1%;
+
+        }
+
+        #Twenty>div:nth-child(1) {
+            background-image: url("/images/men.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #Twenty>div:nth-child(2) {
+            background-image: url("/images/women.png");
+            background-repeat: none;
+            background-size: cover;
+        }
+
+        #Twenty>div:nth-child(3) {
+            background-image: url("/images/kid.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        div>#btn {
+            width: 35%;
+            border: 1px solid transparent;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            height: 70vh;
+        }
+
+
+        button {
+            padding: 10px 20px;
+            border-radius: 15px;
+            background-color: white;
+            border: none;
+        }
+
+        button:hover {
+            background-color: #cacac7;
+        }
+
+        #Twentyone {
+            grid-area: u;
+            border: 1px solid transparent;
+            margin-left: 50px;
+            margin-right: 50px;
+            text-align: left;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #Twentyone>div {
+            width: 20%;
+            height: 90%;
+            border: 1px solid transparent;
+            padding: 1%;
+        }
+
+        #Twentyone>div>p {
+            color: rgb(133, 129, 129);
+        }
+
+        #Twentyone>div>p:hover {
+            cursor: pointer;
+            color: #13130e;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+
+        @media only screen and (min-width: 376px) and (max-width: 768px) {
+
+            #container {
+
+                display: grid;
+                grid-template-columns: repeat(18, 1fr);
+                grid-gap: 5px;
+                border: 1px solid transparent;
+                grid-template-areas:
+                    "a a a a a a a a a a a a a a a a a a"
+                    "b b b b b b b b b b b b b b b b b b"
+                    "c c c c c c c c c c c c c c c c c c"
+                    "d d d d d d d d d d d d d d d d d d"
+                    "e e e e e e e e e e e e e e e e e e"
+                    "f f f f f f f f f f f f f f f f f f"
+                    "g g g g g g g g g g g g g g g g g g"
+                    "h h h h h h h h h h h h h h h h h h"
+                    "i i i i i i i i i i i i i i i i i i"
+                    "j j j j j j j j j j j j j j j j j j"
+                    "k k k k k k k k k k k k k k k k k k"
+                    "l l l l l l l l l l l l l l l l l l"
+                    "m m m m m m m m m m m m m m m m m m"
+                    "n n n n n n n n n n n n n n n n n n"
+                    "o o o o o o o o o o o o o o o o o o"
+                    "p p p p p p p p p p p p p p p p p p"
+                    "q q q q q q q q q q q q q q q q q q"
+                    "r r r r r r r r r r r r r r r r r r"
+                    "s s s s s s s s s s s s s s s s s s"
+                    "t t t t t t t t t t t t t t t t t t"
+                    "u u u u u u u u u u u u u u u u u u"
+
+                ;
+
+            }
+
+            #thirteen {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            #fourteen {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            #fifthteen {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            #sixteen {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            #seventeen {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            #eighteen {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            #nineteen {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            #Twenty {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+
+            #Twenty>div:nth-child(1) {
+                grid-area: u;
+                width: 50%;
+                height: 90%;
+                border: 1px solid transparent;
+                padding: 1%;
+                margin-bottom: 20px;
+            }
+
+            #Twenty>div:nth-child(2) {
+                grid-area: v;
+                width: 50%;
+                height: 90%;
+                border: 1px solid transparent;
+                padding: 1%;
+                margin-bottom: 20px;
+            }
+
+            #Twenty>div:nth-child(3) {
+                grid-area: w;
+                width: 90%;
+                height: 90%;
+                border: 1px solid transparent;
+                padding: 1%;
+                margin-bottom: 20px;
+            }
+
+
+
+        }
+
+        @media only screen and (min-width: 0px) and (max-width: 375px) {
+
+            #container {
+
+                display: grid;
+                grid-template-columns: repeat(18, 1fr);
+                grid-gap: 5px;
+                border: 1px solid transparent;
+                grid-template-areas:
+                    "a a a a a a a a a a a a a a a a a a"
+                    "b b b b b b b b b b b b b b b b b b"
+                    "c c c c c c c c c c c c c c c c c c"
+                    "d d d d d d d d d d d d d d d d d d"
+                    "e e e e e e e e e e e e e e e e e e"
+                    "f f f f f f f f f f f f f f f f f f"
+                    "g g g g g g g g g g g g g g g g g g"
+                    "h h h h h h h h h h h h h h h h h h"
+                    "i i i i i i i i i i i i i i i i i i"
+                    "j j j j j j j j j j j j j j j j j j"
+                    "k k k k k k k k k k k k k k k k k k"
+                    "l l l l l l l l l l l l l l l l l l"
+                    "m m m m m m m m m m m m m m m m m m"
+                    "n n n n n n n n n n n n n n n n n n"
+                    "o o o o o o o o o o o o o o o o o o"
+                    "p p p p p p p p p p p p p p p p p p"
+                    "q q q q q q q q q q q q q q q q q q"
+                    "r r r r r r r r r r r r r r r r r r"
+                    "s s s s s s s s s s s s s s s s s s"
+                    "t t t t t t t t t t t t t t t t t t"
+                    "u u u u u u u u u u u u u u u u u u"
+                    "v v v v v v v v v v v v v v v v v v"
+                    "w w w w w w w w w w w w w w w w w w"
+
+                ;
+
+            }
+
+            #thirteen {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            #fourteen {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            #fifthteen {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            #sixteen {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            #seventeen {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            #eighteen {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            #nineteen {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            #Twenty {
+                height: 500px;
+                margin-left: 10px;
+                margin-right: 10px;
+                display: block;
+            }
+
+            #Twenty>div:nth-child(1) {
+                grid-area: u;
+                width: 90%;
+                height: 90%;
+                border: 1px solid transparent;
+                padding: 1%;
+                margin-bottom: 20px;
+            }
+
+            #Twenty>div:nth-child(2) {
+                grid-area: v;
+                width: 90%;
+                height: 90%;
+                border: 1px solid transparent;
+                padding: 1%;
+                margin-bottom: 20px;
+            }
+
+            #Twenty>div:nth-child(3) {
+                grid-area: w;
+                width: 90%;
+                height: 90%;
+                border: 1px solid transparent;
+                padding: 1%;
+                margin-bottom: 20px;
+            }
+
+            #Twentyone {
+                display: none;
+            }
+
+
+        }
+
+
+
+        /* ends here */
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <div id="one">1</div>
+        <div id="two">2</div>
+        <div id="three">3</div>
+        <div id="four">4</div>
+        <div id="five">
+            <h2>The Latest</h2>
+        </div>
+        <div id="six">6</div>
+        <div id="seven">
+            <p>Nike air Max Dawn</p>
+            <h1>A THROWBACK THAT MOVES FORWARD</h1>
+            <p>With familiar lines and the refreshed silhouette, the Air Max dawn takes inspration from the post so that
+                you can bring your style into the future.</p>
+            <button>Shop</button>
+        </div>
+
+
+
+
+
+        <div id="eigth">
+            <h2>Featured</h2>
+        </div>
+        <div id="nine">9</div>
+        <div id="ten">
+            <h2>Trending</h2>
+        </div>
+        <div id="eleven">11</div>
+
+
+        <div id="twelve">
+            <p>Nike Air Max Pre Day</p>
+            <h1>STYLE IN EVERY STEP</h1>
+            <p>Refreshed in an eye-catching colourway that compliments every outfit, the Air Max Pre day gets you
+                started off on the rigth foot. </p>
+            <button>Shop</button>
+        </div>
+
+
+
+
+        <!-- starts from here -->
+
+        <div id="thirteen">
+            <h2 class="divHeading">Gift Guide</h2>
+        </div>
+        <div id="fourteen">
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/E2-efiAcS3w?autoplay=1&mute=1&loop=1"
+                frameborder="0" allowfullscreen></iframe>
+        </div>
+
+
+        <div id="fifthteen">
+            <p>Holiday Gifting</p>
+            <h1>GIVE JOY FORWARD</h1>
+            <p>Checkout great gifting ideas and shop early for an extra easy holiday.</p>
+            <button class="exploreBtn">Explore Gift Guide</button>
+            <button class="shopBtnBlack">Shop</button>
+        </div>
+
+        <div id="sixteen">
+            <h2 class="divHeading">Don't Miss</h2>
+        </div>
+
+        <div id="seventeen">
+            <img src="/images/shoe.png" alt="">
+        </div>
+        <div id="eigthteen">
+            <h1>FIND YOUR FAST</h1>
+            <p>over fastest family of shoes for everyday runs, training, and racing, refreshed in a vibrant new
+                colourway.</p>
+            <button class="shopBtnBlack">Shop</button>
+        </div>
+
+        <div id="nineteen">
+            <h2 class="divHeading">More Nike</h2>
+        </div>
+        <div id="Twenty">
+            <div>
+                <div id="btn">
+                    <button>Men's</button>
+                </div>
+
+            </div>
+            <div>
+                <div id="btn">
+                    <button>Women's</button>
+                </div>
+
+            </div>
+            <div>
+                <div id="btn">
+                    <button>Kids</button>
+                </div>
+
+            </div>
+        </div>
+        <div id="Twentyone">
+            <div>
+                <h3>Icons</h3>
+                <p>Air Force 1</p>
+                <p>Huarache</p>
+                <p>Air Max 90</p>
+                <p>Air Max 95</p>
+                <p>Air Max 97</p>
+                <p>Air Max 270</p>
+                <p>Air Max 720</p>
+                <p>All Air Max</p>
+            </div>
+            <div>
+                <h3>Shoes</h3>
+                <p>All Shoes</p>
+                <p>Custom Shoes</p>
+                <p>Jordan Shoes</p>
+                <p>Running Shoes</p>
+                <p>Basketball Shoes</p>
+                <p>Football Shoes</p>
+                <p>Gym & Training Shoes</p>
+                <p>Lifestyle Shoes</p>
+            </div>
+            <div>
+                <h3>Clothing</h3>
+                <p>All Clothing</p>
+                <p>Modest Wear</p>
+                <p>Hoodies & Pullovers</p>
+                <p>Shirts & Tops</p>
+                <p>Jackets</p>
+                <p>Football Shoes</p>
+                <p>Compression & Nike Pro</p>
+                <p>Trousers & Leggings</p>
+            </div>
+            <div>
+                <h3>Kids'</h3>
+                <p>Infant & Toddler Shoes</p>
+                <p>Kids' Shoes</p>
+                <p>Kids' Jordan Shoes</p>
+                <p>Kids' Basketball Shoes</p>
+                <p>Kids' Running Shoes</p>
+                <p>Kids' Clothing</p>
+                <p>Kids' Backpacks</p>
+                <p>Kids' Socks</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+</html>
