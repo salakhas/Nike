@@ -17,6 +17,12 @@ We have tried to clone the website using HTML5, CSS3, and Javascript DOM. This w
 1. Grid
 2. Flex
 
+## Tech Stach
+1. HTML
+2. CSS
+3. JavaScript
+4. ES6
+
 ## DOM-Events & Attributes
 1. addEventListener()
 2. getElementById()
