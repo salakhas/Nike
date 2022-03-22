@@ -17,7 +17,7 @@ We have tried to clone the website using HTML5, CSS3, and Javascript DOM. This w
 1. Grid
 2. Flex
 
-## Tech Stach
+## Tech Stack
 1. HTML
 2. CSS
 3. JavaScript
